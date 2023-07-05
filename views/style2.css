@@ -1,0 +1,61 @@
+
+
+#a2{
+    background-color: bisque;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+}
+
+#a3{
+    background-image: url(bck.png);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 0 right 70% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    .logo{
+        width: 200px;
+    }
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #BE9D6A;
+    position: sticky; 
+    top:0;
+    left:0;
+}
+
+#navbar{
+    display: flex;
+    align-items: centre;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16 px;
+    font-weight: 600;
+    color: #373434
+
+}
+
+#navbar li a:hover{
+    color: white;
+}

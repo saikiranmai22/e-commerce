@@ -1,0 +1,112 @@
+body{
+    .logo{
+        width: 200px;
+    }
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #BE9D6A;
+    position: sticky; 
+    top:0;
+    left:0;
+}
+
+#navbar{
+    display: flex;
+    align-items: centre;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16 px;
+    font-weight: 600;
+    color: #373434
+
+}
+
+#navbar li a:hover{
+    color: white;
+}
+
+#dress{
+    background-image:url(img1.png);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#ab1{
+    background-color: #CBB595;
+    padding: 50px 50px;
+    margin: 5px;
+   
+}
+
+#dress h2{
+    color: #616951;
+}
+
+.p1{
+    padding: 40px 80px;
+}
+
+#product{
+    text-align: center;
+}
+
+.cart li a{
+    text-decoration: none;
+    font-size: 16 px;
+    font-weight: 600;
+    color: #373434
+
+}
+
+.cart li a:hover{
+    color: white;
+}
+
+#product .ab3{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border-radius: 1px #cce7d0;
+    cursor: pointer;
+    margin: 15px 0;
+    box-shadow: 20px 20px 30px #a9a3a3;
+
+}
+
+#product .ab3:hover{
+    box-shadow:20px 20px 30px #363537;
+}
+
+#product .ab3 img{
+    width: 100%;
+    border-radius: 20px;
+}
+#product .ab3 h4{
+    color: #616951;
+}
+
+#product .ab2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
